@@ -20,9 +20,9 @@ def get_version(rel_path):
 
 # Metadata goes in setup.cfg. These are here for GitHub's dependency graph.
 setup(
-    name="mlx90641-driver-devicetree",
+    name="mlx90640-driver-devicetree",
     version=get_version('devicetree/__init__.py'),
     install_requires=[
-        'mlx90641-driver>=1.1.3'
+        'mlx90640-driver>=1.1.1'
     ]
 )
