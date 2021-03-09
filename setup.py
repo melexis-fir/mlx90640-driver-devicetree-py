@@ -23,6 +23,6 @@ setup(
     name="mlx90640-driver-devicetree",
     version=get_version('devicetree/__init__.py'),
     install_requires=[
-        'mlx90640-driver>=1.1.1'
+        'mlx90640-driver>=1.1.2'
     ]
 )
